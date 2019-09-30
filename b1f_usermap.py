@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # Title: Exploit CVE-2007-2447
 # Author: Brian Fair <blfair@gmail.com>, https://github.com/b1fair
-# Notes: Use python 2.0, requires pysmb ("pip install pysmb")
+# Notes: Use python2, requires pysmb ("pip install pysmb")
 
 from smb.SMBConnection import SMBConnection
 from smb import smb_structs
